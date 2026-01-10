@@ -17,7 +17,7 @@ public class EmployeeRestController{
     private JsonMapper jsonMapper;
 
     @Autowired
-    public EmployeeRestController (EmployeeService employeeService, JsonMapper jsonMapper) {
+    public EmployeeRestController (EmployeeService employeeService, JsonMapper jsonMapper){
         this.employeeService = employeeService;
         this.jsonMapper = jsonMapper;
     }
